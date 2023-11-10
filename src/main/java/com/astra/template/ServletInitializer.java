@@ -1,4 +1,4 @@
-package com.astra.astralogs;
+package com.astra.template;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(AstraLogsApplication.class);
+		return application.sources(AstraTemplateApplication.class);
 	}
 
 }

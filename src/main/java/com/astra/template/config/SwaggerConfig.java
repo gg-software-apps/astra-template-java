@@ -1,4 +1,4 @@
-package com.astra.astralogs.config;
+package com.astra.template.config;
 
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;

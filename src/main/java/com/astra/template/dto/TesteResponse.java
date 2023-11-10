@@ -1,4 +1,4 @@
-package com.astra.astralogs.dto;
+package com.astra.template.dto;
 
 public class TesteResponse {
 

@@ -1,13 +1,13 @@
-package com.astra.astralogs;
+package com.astra.template;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AstraLogsApplication {
+public class AstraTemplateApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AstraLogsApplication.class, args);
+		SpringApplication.run(AstraTemplateApplication.class, args);
 	}
 
 }
