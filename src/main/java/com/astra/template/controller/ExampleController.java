@@ -7,19 +7,19 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.astra.template.dto.TesteResponse;
+import com.astra.template.dto.ExampleDTO;
 
 import lombok.RequiredArgsConstructor;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequiredArgsConstructor
-public class TesteController {
+public class ExampleController {
 
 	@GetMapping("/")
-	public ResponseEntity<TesteResponse> index() throws IOException {
+	public ResponseEntity<ExampleDTO> index() throws IOException {
 
-		TesteResponse oTesteResponse = new TesteResponse();
+		ExampleDTO oTesteResponse = new ExampleDTO();
 		oTesteResponse.setData("Hello Word");
 		return ResponseEntity.ok(oTesteResponse);
 	}

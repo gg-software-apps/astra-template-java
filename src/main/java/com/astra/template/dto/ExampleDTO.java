@@ -1,6 +1,6 @@
 package com.astra.template.dto;
 
-public class TesteResponse {
+public class ExampleDTO {
 
 	public String data;
 

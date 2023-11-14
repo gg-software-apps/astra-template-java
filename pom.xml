@@ -9,7 +9,7 @@
 		<version>3.1.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.astra</groupId>
+	<groupId>com.astra.template</groupId>
 	<artifactId>astra-template-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>

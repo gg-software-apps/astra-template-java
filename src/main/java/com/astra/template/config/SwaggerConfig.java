@@ -10,7 +10,7 @@ public class SwaggerConfig {
 	    public GroupedOpenApi controllerApi() {
 	        return GroupedOpenApi.builder()
 	                .group("V1")
-	                .packagesToScan("com.astra.astralogs.controller")
+	                .packagesToScan("com.astra.template.controller")
 	                .build();
 	    }
 }
